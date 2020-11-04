@@ -12,7 +12,7 @@ Members
 | ------ | ------- |
 |Lead| Eric |
 |Analysis| |
-|Development| |
+|Development| Isaac |
 
 Paper Presentations
 | Group Members | Paper Title | Paper Link |
