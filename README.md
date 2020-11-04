@@ -10,7 +10,7 @@
 Members
 | Group | Members |
 | ------ | ------- |
-|Lead| |
+|Lead| Eric |
 |Analysis| |
 |Development| |
 
