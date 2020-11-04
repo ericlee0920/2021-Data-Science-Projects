@@ -10,7 +10,7 @@
 Members
 | Group | Members |
 | ------ | ------- |
-|Lead| Eric Megan|
+|Lead| Eric |
 |Analysis| |
 |Development| Isaac |
 
