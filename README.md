@@ -11,7 +11,7 @@ Members
 | Group | Members |
 | ------ | ------- |
 |Lead| Eric |
-|Analysis|Wayne, Vanessa, Megan|
+|Analysis|Wayne, Vanessa, Megan, Dongkyu|
 |Development| Isaac |
 
 Paper Presentations
