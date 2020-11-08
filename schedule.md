@@ -24,7 +24,8 @@
 2. Intro to Git
 3. Discussion on Questions and Dataset
 
-## Meeting 2: November 03, 2020.
+## Meeting 1: October 27, 2020.
 ### Introduction to Research
 1. Leader Introduction
 2. Logisitics and Expectations
+3. Discussion on Research in Methods
