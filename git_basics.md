@@ -1,6 +1,5 @@
 # Basic Github
 ## Work Flow
-Make sure FastANI and Sourmash are downloaded to your user server.
 ### 1. Pull previous edits down
 ```
 git pull
