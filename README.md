@@ -14,4 +14,4 @@
 | ------ | ------- |
 |Lead| Eric |
 |Analysis|Wayne, Vanessa, Megan, Dongkyu|
-|Development| Isaac |
+|Development| Isaac ,Tanmay|
