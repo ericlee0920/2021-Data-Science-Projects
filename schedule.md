@@ -1,4 +1,16 @@
 # Schedule
+## Winter Break: December, 2020.
+### Getting to know Python
+Learn basic Python syntax!
+https://github.com/trekhleb/learn-python
+Now reproduce Pacman in your own coding style!
+https://github.com/kongarakeerthi/PacMan-Python
+
+## Meeting 5: November 24, 2020.
+### Bioanalysis
+Go through the tutorial and report what you learned.
+https://github.com/mmatschiner/tutorials/blob/master/multiple_sequence_alignment/README.md
+
 ## Meeting 4: November 17, 2020.
 ### Initial Experimental Design
 1. What is an appropriate question?
