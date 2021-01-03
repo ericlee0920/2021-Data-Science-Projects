@@ -1,6 +1,6 @@
 # Untitled Analysis
 
-## 2021 Meetings
+## 2021 Meetings with a [plan](https://github.com/ericlee0920/untitled_bc_analysis/blob/main/2021_plan.md)
 | Date | Topic | Todo |
 |------|-------------------------------|-----------------------------------------------------------------|
 | 1/5 | Welcome Back Meeting | Fill in MURC Application, Attend Abstract Writing Workshop |
