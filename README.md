@@ -6,9 +6,10 @@
 | 1/5 | Welcome Back Meeting | Fill in MURC Application, Attend Abstract Writing Workshop |
 | 1/12 | Design Discussion I  | Work on Project Design |
 | 1/19 | Design Discussion II  | Submit Abstract, Finalize Project Design |
-| 2/2 | Project Proposal Presentation | Analysis I |
-| 2/9 | Analysis I Report | Analysis II |
-| 2/16 | Analysis II Report | Analysis III |
+| 1/26 | Project Proposal Presentation | Analysis I |
+| 2/2 | Analysis I Report | Analysis II |
+| 2/9 | Analysis II Report | Analysis III |
+| 2/16 | *Reading Break* | - |
 | 2/23 | Analysis III Report | Submit Final Abstract, Compile Method and Results |
 | 3/2 | Methods and Results Report | Compile Introduction and Discussion |
 | 3/9 | Introduction and Discussion Report | Finalize 10 min Oral Report |
