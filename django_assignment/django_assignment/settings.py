@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import mimetypes
+
+mimetypes.add_type("text/css", ".css", True)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,10 +30,16 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STATICFILES_DIRS = [
+    "/Chungus/URO/untitled_bc_analysis/django_assignment/static",
+]
 
 # Application definition
 
 INSTALLED_APPS = [
+    'index',
+    'database',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
