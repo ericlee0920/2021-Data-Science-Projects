@@ -2,7 +2,16 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <h1>Upload</h1>
+  <div>
+    {{order}}
+    <form method="post" action enctype="multipart/form-data">
+      {% csrf_token %}
+      <label>Upload a file</label>
+      <input type="file" name="file" />
+      <p>Only accepts CSV files</p>
+      <button type="submit">Upload</button>
+    </form>
+  </div>
 </html>
 
 {% endblock %}
