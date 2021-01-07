@@ -2,15 +2,31 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <div>
-    {{order}}
+  <div class="csv-form">
+    <p>Order of the CSV should be sample_name, description</p>
     <form method="post" action enctype="multipart/form-data">
       {% csrf_token %}
       <label>Upload a file</label>
       <input type="file" name="file" />
-      <p>Only accepts CSV files</p>
+      <p><i>Only accepts CSV files</i></p>
       <button type="submit">Upload</button>
     </form>
+  </div>
+  <div>
+    <table>
+      <tr>
+        <th>Sample Name</th>
+        <th>Time</th>
+        <th>Description</th>
+      </tr>
+      {% for sample in samples %}
+      <tr>
+        <td>{{ sample.sample_name }}</td>
+        <td>{{ sample.time }}</td>
+        <td>{{ sample.description }}</td>
+      </tr>
+      {% endfor %}
+    </table>
   </div>
 </html>
 

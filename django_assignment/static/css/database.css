@@ -1,0 +1,18 @@
+.csv-form {
+    padding: 30px;
+    padding-left: 50px;
+}
+
+button[type="submit"] {
+    background-color: #F76C6C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #e66363;
+    cursor: pointer;
+}
