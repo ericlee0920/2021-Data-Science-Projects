@@ -23,7 +23,7 @@ body {
   overflow-x: hidden;
 }
 
-.row {
+/* .row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -31,7 +31,7 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
-}
+} */
 
 .column {
   -ms-flex: 50%;

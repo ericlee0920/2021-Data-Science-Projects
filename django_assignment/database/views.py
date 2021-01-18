@@ -2,6 +2,7 @@ from django.shortcuts import render, HttpResponse
 from django.contrib import messages
 from django.contrib.auth.decorators import permission_required
 from .models import Sample
+from .filters import SampleFilter
 import csv, io
 
 @permission_required('admin.can_add_log_entry')
@@ -28,7 +29,14 @@ def download(request):
 def search(request):
     template = 'search.html'
 
-    return render(request, template)
+    samples = Sample.objects.all()
+
+    myFilter = SampleFilter(request.GET, queryset=samples)
+    samples = myFilter.qs
+
+    context = {'samples': samples, 'myFilter': myFilter}
+
+    return render(request, template, context)
 
 
 @permission_required('admin.can_add_log_entry')

@@ -1,8 +1,39 @@
-{% extends 'main.html' %} {% block content %}
+{% extends 'main.html' %} {% block content %} {% load static %}
 
 <!DOCTYPE html>
 <html lang="en">
-  <h1>Search</h1>
+  <head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/search.css' %}" />
+  </head>
+  <body>
+    <h1 class="header">Search</h1>
+    <div class="row justify-content-center">
+      <div class="col">
+        <div class="card card-body">
+          <form method="get">
+            {{myFilter.form}}
+            <button class="btn btn-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div>
+      <table>
+        <tr>
+          <th>Sample Name</th>
+          <th>Time</th>
+          <th>Description</th>
+        </tr>
+        {% for sample in samples %}
+        <tr>
+          <td>{{ sample.sample_name }}</td>
+          <td>{{ sample.time }}</td>
+          <td>{{ sample.description }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </body>
 </html>
 
 {% endblock %}
