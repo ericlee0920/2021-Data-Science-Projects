@@ -6,7 +6,7 @@
 | 1/5 | Welcome Back Meeting | Fill in MURC Application, Attend Abstract Writing Workshop |
 | 1/12 | Design Discussion I  | Work on Project Design |
 | 1/19 | Design Discussion II  | Submit Abstract, Finalize Project Design |
-| 1/26 | Project Proposal Presentation | Analysis I |
+| 1/26 | *Python Coding Challenge* | Analysis I |
 | 2/2 | Analysis I Report | Analysis II |
 | 2/9 | Analysis II Report | Analysis III |
 | 2/16 | *Reading Break* | - |
