@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  padding: 40px;
+}
+
+.index-desc {
+  position: relative;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+} */
+
+.column {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 5px;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* run.html */
+/* Float four columns side by side */
+.card {
+  position: relative;
+  float: center;
+  justify-content: center;
+  width: 50%;
+  padding: 0 10px;
+}
+
+.card-column {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 50%;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row-card {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card-body {
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}

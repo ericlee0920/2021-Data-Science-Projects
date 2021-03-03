@@ -1,0 +1,44 @@
+{% extends 'main.html' %} {% block content %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search</title>
+  </head>
+  <body>
+    <h1 class="header">Search</h1>
+
+    <div class="row-card">
+      <div class="card-column">
+      <div class="card">
+        <div class="card-body">
+          <a href="/upload/" class="btn btn-custom">Upload</a>
+          <p class="card-text">View and add data to the database.</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="card-column">
+      <div class="card">
+        <div class="card-body">
+          <a href="/download/" class="btn btn-custom">Download</a>
+          <p class="card-text">Download the database into a CSV file.</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="card-column">
+      <div class="card">
+        <div class="card-body">
+          <a href="/search/" class="btn btn-custom">Search</a>
+          <p class="card-text">Search the database.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+</div>
+  </body>
+</html>
+
+{% endblock %}

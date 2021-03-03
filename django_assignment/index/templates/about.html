@@ -1,0 +1,30 @@
+{% extends 'main.html' %} {% block content %}
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div>
+      <h1 class="header">About</h1>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row">
+      <div class="column">
+        <img src="/static/images/ubc1.jpg" />
+        <img src="/static/images/ubc2.jpeg" />
+      </div>
+      <div class="column">
+        <img src="/static/images/ubc3.jpg" />
+        <img src="/static/images/ubc4.jpg" />
+      </div>
+    </div>
+
+  </body>
+</html>
+
+{% endblock %}
