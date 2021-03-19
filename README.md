@@ -1,5 +1,5 @@
 ### 2020-2021
-# 2021 Data Science Projects
+# Data Science Projects
 
 ## Members
 | Group | Members |
@@ -12,7 +12,7 @@
 The two projects listed below are prepared and presented for the Multidisciplinary Undergraduate Research Conference at the University of British Columbia in March 2021.
 
 ### Project 1: miRNA Expression-Based Classification of Breast Cancer
-This project evaluates the workflow to perform classification on breast cancer patients using miRNA expression data. Various clustering and other statistical methods were applied to public datasets from TCGA.
+This project presents a workflow to perform classification on breast cancer patients using miRNA expression data. Various clustering and other statistical methods were applied to public datasets from TCGA.
 
 ### Project 2: Modeling of Meteorological factors of COVID-19
 This project evaluates the significance of meterological factors on COVID-19 infection rates in various regions of Canada. Linear regression, regression trees, and a random forest regressor were applied to public data. 
